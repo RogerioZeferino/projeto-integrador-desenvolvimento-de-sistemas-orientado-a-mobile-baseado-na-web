@@ -13,7 +13,8 @@ Neste projeto, desenvolvemos um sistema simples de agendamento de consultas em h
 
 1. **Configuração e Modelos:**
    - Configuramos o Flask e o SQLite no `config.py`.
-   - Inicializamos o SQLAlchemy em `database.py` e definimos os modelos em `models.py`.
+   - Inicializamos o SQLAlchemy em `database.py` .
+   - O SQLAlchemy é inicializado em database.py para gerenciar o banco de dados.
 
 2. **Modularização das Rotas:**
    - As rotas foram divididas em blueprints na pasta `routes/`. Temos rotas para a área pública, para o admin e para o paciente.
